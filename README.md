@@ -3,7 +3,6 @@
 - [SMAFS](#smafs)
     - [Installation](#installation)
     - [GUI Tutorial](#gui-tutorial)
-    - [Command-Line Tutorial](#command-line-tutorial)
     - [Help](#help)
 <!-- TOC -->
 
