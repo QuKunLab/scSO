@@ -22,7 +22,7 @@ Because scSO relies on the [cvx](http://cvxr.com/cvx/download/) optimization too
 Note: If it is the first time to cluster scRNA-seq data, it is recommended to select "Coarse". If you want to further subdivide the cell population, we recommend choosing "Fine". If using scSO to clustering 10x data, one should select three files matrix.mtx , barcodes.tsv and genes.tsv at the same time, and upload them to scSO.
 
 <div align=center>
-<img src= './images/SMAFS_app.png'  width="95%" height="50%"  />
+<img src= './images/scSO_app.png'  width="95%" height="50%"  />
 </div>
 
 ### Help
