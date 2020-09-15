@@ -11,7 +11,7 @@ scSO
 ===
 ![](./images/Fig.jpg)
 
-scSO is a new algorithm for scRNA-seq data clustering based on the low-rank hypothesis of the gene expression matrix, and the combination of the sparse non-negative matrix factorization and the spectral method.
+scSO is a new algorithm for scRNA-seq data clustering based on Sparse Optimization and low-rank matrix factorization.
 
 ### Installation
 
