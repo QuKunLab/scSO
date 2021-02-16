@@ -47,7 +47,7 @@ Next, install the python package that scSO depends on
     pip3 install matplotlib
     pip3 install sklearn
 
-If the above operations are successfully completed, you can execute the sample file of scSO: [test_scSO.ipynb](./scSO_py/Linux/test_scSO.ipynb)
+If the above operations are successfully completed, you can execute the sample file of scSO: [test_scSO.ipynb](./scSO_py/Linux/demo_test.py)
 
     Attention: scSO was compiled under the environment of Ubuntu20.04 and python3.8.6. If you want to use scSO in other environments, please do the following before using scSO:
         1. pip3 install pybind11
@@ -71,7 +71,7 @@ Next, install the python package that scSO depends on
     pip3 install matplotlib
     pip3 install sklearn
 
-If the above operations are successfully completed, you can execute the sample file of scSO: [test_scSO.ipynb](./scSO_py/Windows/test_scSO.ipynb)
+If the above operations are successfully completed, you can execute the sample file of scSO: [test_scSO.ipynb](./scSO_py/Windows/demo_test.py)
 
     Attention: scSO was compiled under the environment of Windows10, vs2017 and python 3.8.6 If you want to use scSO in other environments, please do the following before using scSO:
         1. pip3 install pybind11

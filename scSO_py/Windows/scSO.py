@@ -5,7 +5,7 @@ import warnings
 import numpy.matlib
 import cvxpy as cp
 import scipy.sparse as ss
-import libSNMF_inner as SI
+import SNMF_inner as SI
 import matplotlib.pyplot as plt
 import os
 eps = 2.22044604925031e-16
@@ -259,9 +259,7 @@ class scSO:
                 W_old = W.copy()
                 H_old = H.copy()
             if count_rise > 3:
-                print(
-                    'arrival the local minimum.'
-                )
+                print('arrival the local minimum.')
                 error = error_new.copy()
                 W = W_old.copy()
                 H = H_old.copy()
@@ -372,7 +370,7 @@ class scSO:
 
     def GMM_fit_and_calcu_0Space(self):
         np.savetxt('H.txt', self.H, delimiter=',')
-        main = "./run_GMM_MATLAB.exe"
+        main = "run_GMM_MATLAB.exe"
         r_v = os.system(main)
         if r_v == 0:
             self.eigenVector_SM = pd.read_csv(
